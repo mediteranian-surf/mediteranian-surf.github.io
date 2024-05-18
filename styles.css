@@ -108,15 +108,14 @@ footer {
 /* Add media queries for mobile responsiveness */
 @media (max-width: 768px) {
     .sidebar {
-        width: 100%;
-        position: static;
-        box-shadow: none;
+        display: none; /* Hide the sidebar on smaller screens */
     }
 
     main {
         margin-left: 0;
         padding: 1rem;
         padding-top: 80px;
+        width: 100%; /* Make the main content take the full width */
     }
 
     .calendar {
