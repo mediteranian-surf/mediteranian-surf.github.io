@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: #2e8b57;
+    margin-bottom: 5%;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 220px;
+    padding: 2rem;
+    padding-top: 80px;
+    flex: 1;
+    margin-top: 1%;
+    
+}
+
+.recipe {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.details {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.show-more {
+    margin-top: 1rem;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.day {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2e8b57;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
