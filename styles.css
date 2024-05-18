@@ -105,6 +105,7 @@ footer {
     bottom: 0;
 
 }
+/* Add media queries for mobile responsiveness */
 @media (max-width: 768px) {
     .sidebar {
         width: 100%;
@@ -124,5 +125,36 @@ footer {
 
     .recipe img {
         width: 100%;
+    }
+}
+
+/* Add additional media queries for smaller devices */
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+
+    .sidebar {
+        font-size: 0.9rem;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 0.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+        padding-top: 60px;
+    }
+
+    .recipe {
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+
+    .show-more {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.9rem;
     }
 }
