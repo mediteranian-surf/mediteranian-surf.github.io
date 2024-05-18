@@ -105,3 +105,24 @@ footer {
     bottom: 0;
 
 }
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        position: static;
+        box-shadow: none;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 1rem;
+        padding-top: 80px;
+    }
+
+    .calendar {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe img {
+        width: 100%;
+    }
+}
